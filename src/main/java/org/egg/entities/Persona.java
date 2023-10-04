@@ -5,13 +5,13 @@ public class Persona {
     private String nombre;
     private String apellido;
     private int dni;
-    private String Domicilio;
+    private String domicilio;
 
     public Persona(String nombre, String apellido, int dni, String domicilio) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.dni = dni;
-        Domicilio = domicilio;
+        this.domicilio = domicilio;
     }
 
     public Persona() {
@@ -42,11 +42,11 @@ public class Persona {
     }
 
     public String getDomicilio() {
-        return Domicilio;
+        return domicilio;
     }
 
     public void setDomicilio(String domicilio) {
-        Domicilio = domicilio;
+        this.domicilio = domicilio;
     }
 
     @Override
@@ -55,7 +55,7 @@ public class Persona {
                 "nombre='" + nombre + '\'' +
                 ", apellido='" + apellido + '\'' +
                 ", dni=" + dni +
-                ", Domicilio='" + Domicilio + '\'' +
+                ", Domicilio='" + domicilio + '\'' +
                 '}';
     }
 }
