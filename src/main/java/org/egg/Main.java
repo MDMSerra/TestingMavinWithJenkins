@@ -29,6 +29,16 @@ public class Main {
         domicilio
          */
         /*
+            Emanuel hace Aula
+            Sector (Laboratorios, cursoEstudio, Salon)
+            piso
+            numero
+            nombre
+            capacidad
+
+            test    instancia
+                    ocupado
+
 
          */
 
